@@ -25,8 +25,8 @@ class PreEnrollmentForm extends FormBase {
 
     $form['student_type'] = array(
       '#type' => 'radios',
-      '#prefix' => '<h2 class="text-danger
-      ">Alliance française Dhaka : Formulaire de Pré-inscription aux cours de Français Niveaux avancés | Pre-enrolment form for advanced French courses </h2> <br> <h3> Informations personnelles | Personal informations </h3>',
+      '#prefix' => '<h2 class="text-danger pb-3
+      ">Alliance française Dhaka : Formulaire de Pré-inscription aux cours de Français Niveaux avancés | Pre-enrolment form for advanced French courses </h2> <br> <h3 class="pb-3"> Informations personnelles | Personal informations </h3>',
       // '#suffix' => '</div>',
       '#title' => ('Please select if you are a new or returning student'),
       '#options' => array(
