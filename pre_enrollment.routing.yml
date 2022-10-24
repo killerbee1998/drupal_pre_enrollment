@@ -1,0 +1,8 @@
+member.content:
+  path: '/pre-enrollment'
+  defaults:
+    _form: '\Drupal\pre_enrollment\Form\PreEnrollmentForm'
+    _title: 'Pre Enrollment Form'
+  requirements:
+    _permission: 'access content'
+    _access: 'TRUE'
